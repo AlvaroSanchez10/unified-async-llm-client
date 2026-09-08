@@ -9,6 +9,7 @@ class ChatMessage(BaseModel):
 
 
 class ModelConfig(BaseModel):
+    provider: Literal["openai", "anthropic"]
     model: str = Field(min_length=1)
     temperature: float = Field(default=0.7, ge=0, le=2)
     max_tokens: int = Field(default=512, gt=0)
