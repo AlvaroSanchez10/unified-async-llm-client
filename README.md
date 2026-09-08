@@ -23,5 +23,5 @@ Este proyecto implementa un cliente unificado y asíncrono para trabajar con dis
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone 
 cd unified-async-llm-client
